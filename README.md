@@ -1,42 +1,17 @@
-# sv
+# Hack Club Skyline
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Hack Club themed website to check out the stats and stuff for your favorite Hack Club!
 
-## Creating a project
+## Features
 
-If you're seeing this, you've probably already done this step. Congrats!
+- Type the name of your Hack Club
+- See some stats
+- See shipped projects!
 
-```sh
-# create a new project
-npx sv create my-app
-```
+## AI Usage
 
-To recreate this project with the same configuration:
+I used AI to come up with a name better than "Hack Club Club Stuff"
 
-```sh
-# recreate this project
-bun x sv@0.17.0 create --template minimal --types ts --add prettier tailwindcss="plugins:none" --install bun hc-skyline
-```
+## Screenshot
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```sh
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```sh
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+![Screenshot](screenshots/1.png)
